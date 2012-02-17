@@ -1,0 +1,7 @@
+A bash script to automate the git push/rebase process in a best practices scenario
+
+Reference for best practices: http://ariejan.net/2009/06/08/best-practice-the-git-development-cycle
+
+To run the script, install the script into a bin directory that is referenced in either your .bash_profile or .bashrc file (such as $HOME/bin) and then run gitpush.sh from your project folder.  The script will check to see what branch you are on, so as part of the the best practices, make sure that you are working in a separte local branch from master.
+
+This script also assumes that you want to merge and rebase from master.
